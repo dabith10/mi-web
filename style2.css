@@ -1,0 +1,192 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+ 
+    background: linear-gradient(rgb(189, 119, 119), rgb(114, 60, 60), rgb(32, 1, 1));
+    min-width: 300px;
+    width: 90%;
+    margin: auto;
+    
+  
+}
+nav{
+       
+       
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    height: 130px;
+    
+    background: linear-gradient(rgb(204, 173, 173), rgb(189, 119, 119), rgb(173, 105, 105));
+  justify-content: center;
+   
+    border-radius: 20px;
+    padding-left: 10px;
+    margin-top: 5px;
+  
+    
+
+}
+.cont-logo{
+    display: flex;
+    
+     align-items: center;
+     max-width: 10%;
+     height: 100px;
+     margin-top: 20px;
+     
+     
+     
+ }
+ .cont-logo img{
+    height: 100px;
+    width: 100px;
+    border-radius: 60%;
+    border:3px solid rgb(92, 12, 16);
+    margin-bottom: 20px;
+
+}
+.nav-menu  a{
+    text-decoration: none;
+    font-family:'Pacífico', cursiva;
+    font-size: 30px;
+    color: rgb(63, 9, 9);
+ 
+}
+.fa-solid{
+
+
+    font-size: 20px;
+       color: rgb(83, 6, 10);
+       margin-top: 10px;
+       padding-right: 50px;
+      
+   }
+   .nav-menu ul{
+   display: flex;
+   text-align: center;
+   
+    list-style: none;
+    height: 50px;
+    width: 100%;
+    padding-left: 50%;
+    margin-top: 30px;
+  
+
+  
+   border-radius: 10px;
+    
+ }
+ .nav-menu{
+   
+    width: calc(100%-10px);
+    height: 100px;
+}
+.nav-menu ul li {
+    width: 80%;
+
+
+
+    padding-left: 10px;
+}
+header h2{
+    font-size: 45px;
+}
+.conteiner{ display: flex;
+    flex-direction: column;
+    background-color: rgb(189, 86, 86);
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+    padding-bottom: 100px;
+}
+
+.cont1-2{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 400px;
+   
+    display: flex;
+    flex-direction: column;
+}
+.conteiner-form{
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 500px;
+   
+    display: flex;
+    flex-direction: column;
+}
+.conteiner-1{
+    padding-left: 50px;
+    background-color: rgb(189, 86, 86);
+   width: 80%;
+   
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.conteiner-1 div input{
+    width: 80%;
+    border-radius: 10px;
+}
+.conteiner-1 div label{
+    margin: auto;
+    font-size: 1em;
+    align-items: center;
+}
+.conteiner-2{
+    padding-left: 50px;
+    background-color: rgb(189, 86, 86);
+    height: 400px;
+    width: 80%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.conteiner-2 div input{
+    text-align: center;
+    width: 80%;
+    border-radius: 10px;
+}
+.conteiner-2 div label{
+    font-size: 1em;
+}
+.boton{
+    display: flex;
+    align-items: center;
+    background-color: rgb(189, 86, 86);
+    height: 9%;
+    width: 150px;
+    margin: auto;
+}
+button{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border-radius: 10px;
+    margin-top: 7px;
+}
+@media (min-width:600px){
+
+
+    .cont1-2{
+        flex-direction: row;
+        justify-content: center;
+        width: 80%;
+        height: 500px;
+      
+        display: flex;
+        flex-direction: row;
+    }
+}
